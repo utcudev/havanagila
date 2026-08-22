@@ -1,0 +1,11 @@
+# Arduino build çıktıları
+build/
+*.hex
+*.elf
+*.bin
+.build/
+
+# Editör / OS
+.vscode/
+.DS_Store
+Thumbs.db
