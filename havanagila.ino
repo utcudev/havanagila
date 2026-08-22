@@ -780,8 +780,11 @@ void song(int buzzerPin) {
 
 }
 
+// Buzzer'in bagli oldugu pin. Farkli bir pin kullaniyorsan burayi degistir.
+const int BUZZER_PIN = 11;
+
 void setup() {
-  song(11);  // Change the pin number as needed
+  song(BUZZER_PIN);
 }
 
 void loop() {

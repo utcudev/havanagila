@@ -18,12 +18,10 @@ Arduino Uno/Nano/Mega ve `tone()` destekleyen diğer AVR kartlarında çalışı
 2. Kartını ve portunu seç, yükle.
 3. Melodi `setup()` içinde bir kez çalar; `loop()` boştur.
 
-Farklı bir pin kullanmak için `setup()` içindeki pin numarasını değiştir:
+Farklı bir pin kullanmak için dosyanın sonundaki sabiti değiştir:
 
 ```cpp
-void setup() {
-  song(11);  // buzzer pini
-}
+const int BUZZER_PIN = 11;
 ```
 
 Sürekli tekrar için `song()` çağrısını `loop()` içine taşı.
